@@ -1,36 +1,34 @@
-Olá recrutador, o codigo presente nesse repositório é apenas uma parte do projeto.
+olá recrutador, o código presente nesse repositório é apenas uma parte do projeto.
 
-Esse projeto é uma API RESTFul para um sistema para restaurantes que fornece comunicação entre o aplicativo mobile e a interface web, esses estão em outros repositórios.
-Essa API é destinada às aplicações do Estabelecimento e ainda está em desenvolvimento, então é possível encontrar algum tipo de código não tão otimizado como deveria; 
-posteriormente serão desenvolvidas as aplicações e APIs para o Consumidor e Entregadores.
+esse projeto é uma api restful para um sistema para restaurantes que fornece comunicação entre o aplicativo mobile e a interface web, esses estão em outros repositórios.
+essa api é destinada às aplicações do estabelecimento e ainda está em desenvolvimento, então é possível encontrar algum tipo de código não tão otimizado como deveria; 
+posteriormente serão desenvolvidas as aplicações e apis para o consumidor e entregadores.
 
 atualmente, os recursos funcionais são: 
-- CADASTRO, EDIÇÃO e LISTAGEM DE USUARIOS -> É POSSIVEL CADASTRAR UM USUÁRIO CASO AINDA NÃO TENHA UMA CONTA, NESSE CASO DEVE ESTÁ ATRELADO AO PRIMEIRO CADASTRO DO ESTABELECIMENTO 
-- CADASTRO E LISTAGEM DE CATEGORIAS
-- CADASTRO E LISTAGEM DE PRODUTOS (PIZZA)
-- AUTENTICAÇÃO VIA TOKEN
-- LOGIN,
-- RECUPERAÇÃO DE SENHA VIA EMAIL (esqueci senha),
-- ALTERAÇÃO DE SENHA PELO METODO DE INFORMAR A SENHA ANTERIOR (quando logado) E PELO METODO DE USUÁRIO ADMINISTRADOR SEM NECESSIDADE DE INFORMAR A SENHA ANTERIOR (alteração arbitrária)
-- ARMAZENAMENTO DE IMAGENS DO BANCO DE DADOS DIRETO NO DISCO, ISSO É FEITO TODA VEZ QUE UMA IMAGEM É REQUISITADA E NÃO É ENCONRADA NO DISCO, NESSE CASO ELA É BAIXADA DO BANCO E COPIADA PARA O REPOSITORIO LOCAL, ASSIM TORNA-SE MAIS RAPIDA A LISTAGEM DE IMAGENS
-- UTILIZAÇÃO DE CACHE NOS ENDPOINS MAIS UTILIZADOS
+- Cadastro, edição e listagem de usuários -> é possível cadastrar um usuário caso ainda não tenha uma conta, nesse caso deve estar atrelado ao primeiro cadastro do estabelecimento 
+- Cadastro e listagem de categorias
+- Cadastro e listagem de produtos (pizza)
+- Autenticação via token
+- Login,
+- Recuperação de senha via e-mail (esqueci senha),
+- Alteração de senha pelo método de informar a senha anterior (quando logado) e pelo método de usuário administrador sem necessidade de informar a senha anterior (alteração arbitrária)
+- Armazenamento de imagens do banco de dados direto no disco, isso é feito toda vez que uma imagem é requisitada e não é encontrada no disco, nesse caso ela é baixada do banco e copiada para o repositório local, assim torna-se mais rápida a listagem de imagens
+- Utilização de cache nos endpoins mais utilizados
 
-PRINCIPAIS recursos que serão implementados posteriormente:
+principais recursos que serão implementados posteriormente:
 
-  - CRIAÇÃO DE TESTES AUTOMATIZADOS COM O JUNIT
-  - RECEBIMENTOS DE PAGAMENOS DOS PRODUTOS, CERTAMENTE SERÁ UTILIZADA A API DO MERCADO PAGO, OU SIMILAR
-  - LISTAGEM DE PEDIDOS REALIZADOS POR CLIENTES
-  - LISTAGEM DE CARDÁPIO
-  - CADASTRO DE PRODUTOS PADRÃO (QUE NÃO SEJAM PIZZAS)
-  - CADASTRO E LISTAGEM DE ENTREGADORES FIXOS
-  - CONTROLE DE ACESSO DE USUÁRIOS, POR NÍVEL/HIERARQUIA
-  - INCLUSÃO DE NOTAS E COMENTÁRIOS DADAS PELOS CLIETNES AOS PRODUTOS, GARÇONS, ENTREGADORES E AO PRÓPRIO ESTABELECIMENTO
-  - LISTAGEM DE PRODUTOS MAIS VENDIDOS
-  - LISTAGEM DE ESTOQUE, PARA PRODUTOS QUE SE APLICAM O CONTROLE DE ESTOQUE
-  - LISTAGEM DE VENDAS REALIZADAS EM UM PERIODO ESPECÍFICO
-  - MIGRAÇÃO DE USUÁRIOS QUE JÁ POSSUEM CONTAS ATRELADAS À OUTRO ESTABELECIMENTOAO, ESSES PODERÃP SER TRANSFERIDOS PARA O NOVO ESTABELECIMENTO,
-    A NOTA DE ATENDIMENTO QUE POSSUI E OS COMENTÁRIOS SE MANTERÃO, PORÉM OS COMENTARIOS SERÃO SEPARADOS POR UMA SECÇÃO DENOMINADA "COMENTÁRIOS ANTIGOS"
-  - LISTAGEM DE QUANTIDADE DE MESAS DISPONÍVEIS
-  - GERAÇÃO DE QRCODE PARA REFERENCIAR AS MESAS DO LOCAL, POSTERIORMENTE SERÃO UTILIZADOS PELOS CLIENTES
-
-
+  - Criação de testes automatizados com o JUnit
+  - Recebimentos de pagamentos dos produtos, certamente será utilizada a api do mercado pago, ou similar
+  - Listagem de pedidos realizados por clientes
+  - Listagem de cardápio
+  - Cadastro de produtos padrão (que não sejam pizzas)
+  - Cadastro e listagem de entregadores fixos
+  - Controle de acesso de usuários, por nível/hierarquia
+  - Inclusão de notas e comentários dadas pelos clientes aos produtos, garçons, entregadores e ao próprio estabelecimento
+  - Listagem de produtos mais vendidos
+  - Listagem de estoque, para produtos que se aplicam o controle de estoque
+  - Listagem de vendas realizadas em um período específico
+  - Migração de usuários que já possuem contas atreladas a outro estabelecimento, esses poderão ser transferidos para o novo estabelecimento,
+    a nota de atendimento que possui e os comentários se manterão, porém os comentários serão separados por uma secção denominada "comentários antigos"
+  - Listagem de quantidade de mesas disponíveis
+  - Geração de QR Code para referenciar as mesas do local, posteriormente serão utilizados pelos clientes
