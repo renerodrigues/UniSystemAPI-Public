@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "uni.api.security.token.secret",
+    "type": "java.lang.String",
+    "description": "Chave para geração de Token da api, deve ser definida uma variavel de ambiente com nome 'JWT_SECRET'"
+  },
+  {
+    "name": "uni.api.serverAddress",
+    "type": "java.lang.String",
+    "description": "A description for 'uni.api.serverAddress'"
+  }
+]}
